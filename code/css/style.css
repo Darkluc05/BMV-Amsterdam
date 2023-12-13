@@ -16,7 +16,6 @@ body {
 
 body {
   font-family: "Open Sans", sans-serif;
-  min-height: 200vh;
   overflow-x: hidden;
 }
 
@@ -27,14 +26,12 @@ body {
 }
 .header__background {
   width: 100vw;
-  height: 100vh;
   z-index: -1;
 }
 .header__background > img {
   position: absolute;
   top: 0;
   width: 100%;
-  height: 100%;
   filter: hue-rotate(340deg);
   z-index: -1;
 }
@@ -66,7 +63,46 @@ body {
 
 .info {
   background: red;
-  height: 90vh;
+  min-height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+}
+.info__title {
+  padding-left: 4rem;
+  color: white;
+  font-size: 300%;
+  font-family: "robotica";
+}
+.info__section {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.info__figure {
+  width: 40%;
+  object-fit: contain;
+}
+.info__figure > img {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.info__textWrapper {
+  width: 50%;
+  height: 100%;
+  background: white;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.3) -2px 5px 2rem 0.5rem;
+  margin-bottom: 2rem;
+}
+.info__text {
+  padding: 2rem;
+  padding-bottom: 8rem;
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

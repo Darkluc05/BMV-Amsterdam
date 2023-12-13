@@ -22,14 +22,14 @@ class Renderer {
     }
 }
 
-class Main{
+class Header{
     renderer
     data
-    constructor(data, renderer){
+    constructor(data, renderer, className){
         this.renderer = renderer
         this.data = data
 
-        this.title = document.querySelector(".header__title")
+        this.title = document.querySelector(`.${className}__title`)
         this.title.innerText = data.title
     }
 }
@@ -37,12 +37,15 @@ class Main{
 class Info{
     renderer
     data
-    constructor(data, renderer){
+    constructor(data, renderer, className){
         this.renderer = renderer
         this.data = data
 
-        this.title = document.querySelector(".info__title")
+        this.title = document.querySelector(`.${className}__title`)
         this.title.innerText = data.title
+
+        this.text = document.querySelector(`.${className}__text`)
+        this.text.innerText = data.text
     }
 }
 
@@ -53,8 +56,8 @@ class App{
         this.api = new GetData("./data/data.json")
         this.renderer = new Renderer()
         this.api.getJson().then((data) => {
-            this.main = new Main(data.algemeen[0], this.renderer)
-            this.info = new Info(data.info[0], this.renderer)
+            this.header = new Header(data.algemeen[0], this.renderer, "header")
+            this.info = new Info(data.info[0], this.renderer, "info")
         });
     }
 }

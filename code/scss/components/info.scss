@@ -1,4 +1,45 @@
 .info{
     background: red;
-    height: 90vh;
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+    &__title{
+        padding-left: 4rem;
+        color: white;
+        font-size: 300%;
+        font-family: "robotica";
+    }
+
+    &__section{
+        height: 80%;
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+    }
+    &__figure{
+        width: 40%;
+        object-fit: contain;
+        &>img{
+            width: 100%;
+            aspect-ratio: 1/1;
+        }
+    }
+    &__textWrapper{
+        width: 50%;
+        height: 100%;
+        background: white;
+        border-radius: 2rem;
+        box-shadow: rgba($color: #000000, $alpha: 0.3) -2px 5px 2rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+    &__text{
+        padding: 2rem;
+        padding-bottom: 8rem;
+        font-size: 120%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
 }
