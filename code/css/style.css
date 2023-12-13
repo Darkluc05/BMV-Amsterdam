@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 200vh;
+}
+
+.header {
+  background-image: url("../../images/amsterdam.jpeg");
+  height: 100vh;
+  width: 100vw;
+  filter: hue-rotate(340deg);
+}
+.header__menu {
+  font-size: 250%;
+  padding: 2rem;
+}
+.header__title {
+  color: white;
+  width: 70vw;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%);
+  font-family: "sitka banner";
+  font-size: 250%;
+  text-shadow: rgba(0, 0, 0, 0.3) -2px 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
