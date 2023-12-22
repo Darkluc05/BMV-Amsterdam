@@ -1,4 +1,4 @@
-.info{
+.info {
     background: red;
     min-height: 110vh;
     display: flex;
@@ -6,40 +6,46 @@
     justify-content: center;
     align-items: flex-start;
     gap: 4rem;
-    &__title{
+    box-shadow: inset 0rem 1rem 2rem 0.1rem rgba($color: #000000, $alpha: 0.3);
+    &__title {
         padding-left: 4rem;
         color: white;
         font-size: 300%;
-        font-family: "robotica";
+        font-family: "sitka banner";
     }
 
-    &__section{
+    &__section {
         height: 80%;
         width: 100%;
         display: flex;
-        justify-content:space-around;
+        justify-content: space-around;
     }
-    &__figure{
+    &__figure {
         width: 40%;
         object-fit: contain;
-        &>img{
+        & > img {
             width: 100%;
             aspect-ratio: 1/1;
+            border-radius: 0.5rem;
         }
     }
-    &__textWrapper{
+    &__textWrapper {
         width: 50%;
-        height: 100%;
+        height: 120%;
         background: white;
-        border-radius: 2rem;
+        border-radius: 1rem;
         box-shadow: rgba($color: #000000, $alpha: 0.3) -2px 5px 2rem 0.5rem;
         margin-bottom: 2rem;
     }
-    &__text{
+    &__text {
         padding: 2rem;
         padding-bottom: 8rem;
         font-size: 120%;
         font-family: Arial, Helvetica, sans-serif;
+        &Title {
+            padding: 2rem;
+            font-size: 120%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
     }
-
 }

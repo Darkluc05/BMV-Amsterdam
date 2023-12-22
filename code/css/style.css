@@ -32,7 +32,7 @@ body {
   position: absolute;
   top: 0;
   width: 100%;
-  filter: hue-rotate(340deg);
+  filter: hue-rotate(340deg) grayscale(0.3) saturate(1.2);
   z-index: -1;
 }
 .header__menu {
@@ -69,12 +69,13 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 4rem;
+  box-shadow: inset 0rem 1rem 2rem 0.1rem rgba(0, 0, 0, 0.3);
 }
 .info__title {
   padding-left: 4rem;
   color: white;
   font-size: 300%;
-  font-family: "robotica";
+  font-family: "sitka banner";
 }
 .info__section {
   height: 80%;
@@ -89,12 +90,13 @@ body {
 .info__figure > img {
   width: 100%;
   aspect-ratio: 1/1;
+  border-radius: 0.5rem;
 }
 .info__textWrapper {
   width: 50%;
-  height: 100%;
+  height: 120%;
   background: white;
-  border-radius: 2rem;
+  border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.3) -2px 5px 2rem 0.5rem;
   margin-bottom: 2rem;
 }
@@ -104,5 +106,72 @@ body {
   font-size: 120%;
   font-family: Arial, Helvetica, sans-serif;
 }
+.info__textTitle {
+  padding: 2rem;
+  font-size: 120%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projects {
+  position: relative;
+  overflow: hidden;
+}
+.projects__title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.projects__project {
+  display: flex;
+  margin-bottom: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.projects__project:first-child {
+  display: block;
+}
+.projects__project__left, .projects__project__right {
+  flex: 1;
+  padding: 1rem;
+}
+.projects__project__left__figure img, .projects__project__right__figure img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.projects__project__left__name, .projects__project__right__name {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.projects__project__left__all, .projects__project__right__all {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.projects__project__left__all:hover, .projects__project__right__all:hover {
+  background-color: #0056b3;
+}
+.projects__project__right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+}
+.projects__project__right__text {
+  margin-bottom: 1rem;
+}
+.projects__project__right__expand {
+  display: inline-block;
+  color: #007bff;
+  text-decoration: none;
+}
+.projects__project__right__expand:hover {
+  text-decoration: underline;
+}
+
+/* Add more styles as needed */
 
 /*# sourceMappingURL=style.css.map */

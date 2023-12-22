@@ -1,13 +1,102 @@
 {
-    "algemeen":[
+    "algemeen": [
         {
-            "title":"bouwmanagement en maatschappelijk vastgoed Amsterdam"
+            "title": "bouwmanagement en maatschappelijk vastgoed Amsterdam"
         }
     ],
-    "info":[
+    "info": [
         {
-            "title":"Wie Zijn wij?",
-            "text": "Bijdragen aan een toekomstbestendige stad\nEen sociaal-duurzaam Amsterdam\n\nVoor veel mensen is en blijft Amsterdam een zeer aantrekkelijke plek om te wonen en dus blijven we bouwen aan de groei van de stad.\n\nMaar Amsterdam bestaat natuurlijk uit méér dan alleen woningen. Daarom bouwen we aan een sociaal-duurzaam Amsterdam: een stad die het welzijn van haar bewoners belangrijk vindt en verbetert, door niet alleen woningen te bouwen maar ook te zorgen voor maatschappelijke voorzieningen, voor huidige bewoners en toekomstige generaties."
+            "title": "Wie Zijn wij?",
+            "textTitle": "Bijdragen aan een toekomstbestendige stad",
+            "text": "Een sociaal-duurzaam Amsterdam\n\nVoor veel mensen is en blijft Amsterdam een zeer aantrekkelijke plek om te wonen en dus blijven we bouwen aan de groei van de stad.\n\nMaar Amsterdam bestaat natuurlijk uit méér dan alleen woningen. Daarom bouwen we aan een sociaal-duurzaam Amsterdam: een stad die het welzijn van haar bewoners belangrijk vindt en verbetert, door niet alleen woningen te bouwen maar ook te zorgen voor maatschappelijke voorzieningen, voor huidige bewoners en toekomstige generaties."
+        }
+    ],
+    "projects": [
+        {
+            "list": [
+                {
+                    "Spinoza": [
+                        {
+                            "title": "Nieuwbouw Spinoza20first",
+                            "imageURL": "../images/spinoza20first_430x330.jpg",
+                            "text": "Spinoza20First: duurzame school en sporthal\n\nWaar ooit de parkeergarage van de voormalige Bijlmerbajes stond, zorgde een team van BMV voor de realisatie van nieuwbouw van de Spinoza20First-school en Sporthal Bajeskwartier, met daaraan gekoppeld een jongerencentrum.\n\nDeze middelbare school biedt plek aan 1.000 tot 1.200 leerlingen.\n\nDe sporthal bestaat uit drie zalen. Deze worden op doordeweekse dagen overdag gebruikt door Spinoza20First en in de avonden en weekenden door verenigingen.\n\nBij de ontwikkeling van de school en de sporthal besteedde BMV veel aandacht aan duurzaamheid. Zo is het gebouw flexibel indeelbaar, heeft het een lichte constructie en is bij de bouw gebruik gemaakt van duurzame materialen. Verder is het gebouw aangesloten op de warmte/koude-opslaginstallatie (voor verwarming in de winter en verkoeling in de zomer) van het gebied Bajeskwartier.\n\nHet dak van de school – met daarop het schoolplein – bevat veel groen, dat bijdraagt aan het vasthouden van regenwater. Op het dak van de sporthal bevinden zich hiernaast zonnepanelen.",
+                            "shortText": "Spinoza20First: duurzame school en sporthal\n\nWaar ooit de parkeergarage van de voormalige Bijlmerbajes stond, zorgde een team van BMV voor de realisatie van nieuwbouw van de Spinoza20First-school en Sporthal Bajeskwartier, met daaraan gekoppeld een jongerencentrum.\n\nDeze middelbare school biedt plek aan 1.000 tot 1.200 leerlingen.\n\n",
+                            "link": "www.spinoza20first.nl",
+                            "higlighted": "1"
+                        }
+                    ],
+                    "AICS": [
+                        {
+                            "title": "Nieuwbouw AICS",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "0"
+                        }
+                    ],
+                    "bostheather": [
+                        {
+                            "title": "Renovatie Bostheater",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "0"
+                        }
+                    ],
+                    "Wereldburger": [
+                        {
+                            "title": "Renovatie de Wereldburger",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "0"
+                        }
+                    ],
+                    "slavernijmuseum": [
+                        {
+                            "title": "Kwartiermaker Nationaal Slavernijmuseum",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "0"
+                        }
+                    ],
+                    "Amsterdam museum": [
+                        {
+                            "title": "Renovatie Amsterdam museum",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "0"
+                        }
+                    ],
+                    "Sportpark AFC": [
+                        {
+                            "title": "Sportpark Goed Genoeg & Clubgebouw AFC",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "1"
+                        }
+                    ],
+                    "Nieuwbouw Werven": [
+                        {
+                            "title": "Verbouwing en Nieuwbouw Werven en Overslagpunten",
+                            "imageURL": "",
+                            "text": "",
+                            "shortText": "",
+                            "link": "",
+                            "higlighted": "1"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

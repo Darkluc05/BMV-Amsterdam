@@ -10,7 +10,7 @@
             position: absolute;
             top: 0;
             width: 100%;
-            filter: hue-rotate(340deg);
+            filter: hue-rotate(340deg) grayscale(0.3) saturate(1.2);
             z-index: -1;
         }
 
@@ -20,6 +20,9 @@
         padding: 2rem;
         display: flex;
         justify-content: space-between;
+        &>i{
+
+        }
     }
     &__logo{
         height: 30vh;
